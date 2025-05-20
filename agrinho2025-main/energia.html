@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energia para o Agrinho 2025</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa; /* Cor de fundo padrão */
+        }
+
+        .opening-animation {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 1s ease-out, transform 1s ease-out;
+        }
+
+        .opening-animation.loaded {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .cabecalho {
+            color: white;
+            background-color: black;
+            text-align: center;
+            padding: 30px;
+            margin-bottom: 2rem; /* Adicionando margem inferior para separar do conteúdo */
+        }
+
+        .cabecalho h1 { /* Alterado para h1 para melhor semântica */
+            color: rgb(206, 206, 8);
+        }
+
+        .alinha {
+            text-align: right;
+        }
+
+        .img-agro {
+            width: 300px;
+        }
+
+        .br-3 {
+            border-radius: 15px;
+        }
+
+        .img-card {
+            max-height: 250px;
+            width: 100%; /* Para manter a proporção e responsividade */
+            object-fit: cover; /* Para cobrir o espaço sem distorcer */
+        }
+
+        .img-slide {
+            max-height: 400px;
+            width: 100%;
+            object-fit: contain; /* Para ajustar a imagem dentro do espaço sem cortar */
+        }
+
+        .footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            margin-top: 2rem; /* Adicionando margem superior para separar do conteúdo */
+        }
+
+        .feature-box {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: .3rem;
+            box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+        }
+    </style>
+</head>
+<body class="opening-animation">
+    <div class="cabecalho">
+        <h1>Energia: O Combustível do Agrinho 2025</h1>
+        <h3>Descubra a força que move o nosso futuro</h3>
+    </div>
+
+    <div class="container">
+        <p class="alinha">Nesta página, vamos explorar o conceito de energia e sua importância para as atividades do Agrinho 2025.</p>
+
+        <div class="feature-box">
+            <h2>O que é Energia?</h2>
+            <p>Em termos simples, energia é a capacidade de realizar trabalho. Ela está presente em todos os lugares e se manifesta de diversas formas, como a luz do sol, o calor, o movimento, a eletricidade e os combustíveis.</p>
+            <p>Para o Agrinho 2025, entender a energia é crucial, pois ela impulsiona a produção agrícola, a tecnologia utilizada no campo, o transporte de alimentos e muitas outras atividades essenciais para o nosso dia a dia.</p>
+        </div>
+
+        <div class="feature-box">
+            <h2>A Importância da Energia para o Agrinho 2025</h2>
+            <p>A energia desempenha um papel fundamental em diversas áreas do Agrinho 2025:</p>
+            <ul>
+                <li><strong>Produção Agrícola:</strong> Tratores e máquinas agrícolas utilizam combustíveis para arar a terra, plantar e colher. A energia elétrica é essencial para sistemas de irrigação, iluminação de estufas e funcionamento de equipamentos de processamento.</li>
+                <li><strong>Tecnologia no Campo:</strong> A agricultura moderna depende cada vez mais de tecnologias como sensores, drones e sistemas de automação, que necessitam de energia elétrica para operar.</li>
+                <li><strong>Transporte e Logística:</strong> A energia é vital para o transporte de insumos agrícolas, produtos colhidos e alimentos até os consumidores. Caminhões, trens e outros veículos dependem de combustíveis ou eletricidade.</li>
+                <li><strong>Processamento de Alimentos:</strong> Indústrias de alimentos utilizam energia em diversas etapas, desde a moagem de grãos até o embalamento de produtos finais.</li>
+                <li><strong>Sustentabilidade:</strong> A busca por fontes de energia renovável e práticas de uso eficiente da energia são temas centrais para um Agrinho 2025 mais sustentável e preocupado com o meio ambiente.</li>
+            </ul>
+        </div>
+
+        <div class="feature-box">
+            <h2>Fontes de Energia</h2>
+            <p>Existem diversas fontes de energia, que podem ser classificadas em:</p>
+            <ul>
+                <li><strong>Fontes Não Renováveis:</strong> São aquelas que se esgotam com o uso, como o petróleo, o gás natural e o carvão mineral.</li>
+                <li><strong>Fontes Renováveis:</strong> São aquelas que se regeneram naturalmente, como a energia solar, a energia eólica, a hidrelétrica e a biomassa.</li>
+            </ul>
+            <p>No contexto do Agrinho 2025, a discussão sobre o uso de fontes de energia renovável e a eficiência energética é muito importante para garantir um futuro mais verde e sustentável para o setor agrícola.</p>
+        </div>
+
+        <div class="feature-box">
+            <h2>Energia e o Futuro do Agrinho</h2>
+            <p>O Agrinho 2025 certamente abordará a importância de inovações e práticas que promovam o uso consciente e eficiente da energia no campo. Isso inclui o desenvolvimento de tecnologias mais eficientes, a adoção de energias renováveis e a conscientização sobre o consumo energético.</p>
+            <p>Ao compreender a energia e sua relevância, podemos contribuir para um Agrinho 2025 mais forte, produtivo e sustentável.</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2025 Agrinho - Explorando a Energia</p>
+    </div>
+
+    <script>
+        window.addEventListener('load', () => {
+            document.body.classList.add('loaded');
+        });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
